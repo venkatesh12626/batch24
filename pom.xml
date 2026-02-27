@@ -40,10 +40,10 @@
             </plugin>
         </plugins>
     </build>
-    <distributionManagement>
+    <distributionmanagement>
         <repository>
             <id>nexus-releases</id> <!-- Match this ID with the settings.xml -->
-            <url>hhttp://13.235.74.219:8081/repository/maven-java-packages/</url>
+            <url>http://13.235.74.219:8081/repository/maven-java-packages/</url>
         </repository>
     </distributionManagement>
 </project>
